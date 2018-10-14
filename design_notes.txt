@@ -1,0 +1,50 @@
+===============================================================================
+Globals
+	Curr Lvl
+	# Lvls Gone though
+
+===============================================================================
+Objects:
+		Character
+			HP
+			Att
+			Def
+			Spd
+
+			Main Char
+				Morality
+
+			Small Fairy Enemies (Don't Attack, Dies Upon being hit) - Navi Fairy Design
+				# Movement AI
+				Stats Dec as Lvl Inc
+
+			Demon Enemies (Attacks) - Slime Design
+				Movement AI
+				Stats Inc as Lvl Inc
+
+		Items (Stationary)
+			HP UP
+			Att Up
+			Def Up
+			Spd Up
+
+===============================================================================
+Rooms
+	Doors:
+		Levels (all 3x3 for now)
+	Tutorial 
+		Movement Keys WASD
+		Attack
+		Movement Speed
+		Run into items to Pick up
+		Enemies
+		Move to different Rooms
+	Sub Heaven && Sub Hell
+		Can have multiple instances
+
+
+	Heaven && Hell && Purgatory
+		Final Rooms - (just need Level Design)
+
+===============================================================================
+
